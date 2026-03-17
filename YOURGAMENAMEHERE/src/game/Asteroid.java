@@ -16,8 +16,8 @@ public class Asteroid extends Polygon {
 
 	        for(int i=0 ;i< asteroidPoints.length; i++)
 	        {
-	           // x[i] = (int)asteroidPoints[i];
-	          //  y[i] = (int)asteroidPoints[i];
+	            x[i] = (int)asteroidPoints[i].x;
+	            y[i] = (int)asteroidPoints[i].y;
 	        }
 
 	        brush.fillPolygon(x,y,asteroidPoints.length);
