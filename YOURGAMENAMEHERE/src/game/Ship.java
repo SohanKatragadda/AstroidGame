@@ -30,8 +30,11 @@ public class Ship extends Polygon {
         	xCoords[i] = (int) points[i].x;
             yCoords[i] = (int) points[i].y;
         }
-
         brush.setColor(Color.WHITE);
         brush.drawPolygon(xCoords, yCoords, points.length);
     }
+    
+    
+    
+    
 }
